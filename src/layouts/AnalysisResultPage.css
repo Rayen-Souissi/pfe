@@ -1,0 +1,25 @@
+.analysis-result-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.section {
+    margin-right: 20px;
+}
+
+.file-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 300px; /* Limit height to prevent overflow */
+    overflow-y: auto; /* Enable vertical scrolling if necessary */
+}
+
+.file-item {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}

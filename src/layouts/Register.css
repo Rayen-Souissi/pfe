@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+background-color: #FFEAE3;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFEAE3;
+  
+}
+
+.form-container {
+    width: 1000px;
+    display: flex; /* Add display flex */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.title, .slogan {
+    text-align: center;
+}
+
+.btn {width: 100%;}
+
+.auth-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.alert{
+    margin-bottom: 1.5 rem;
+}

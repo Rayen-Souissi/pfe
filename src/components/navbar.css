@@ -1,0 +1,24 @@
+.custom-navbar {
+    background-image: url('../assets/navbar-background.png');
+    background-size: cover;
+  }
+  .custom-navbar .navbar-brand {
+    color: #ffffff; /* Adjust the color as needed */
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
+  
+  .custom-navbar .nav-link {
+    color: #ffffff; /* Adjust the color as needed */
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+  
+  .custom-navbar .nav-dropdown .dropdown-item {
+    color: #ffffff; /* Adjust the color as needed */
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+  
+  .brand-text {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Optionally adjust the font weight */
+  }
+  
